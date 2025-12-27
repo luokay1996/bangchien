@@ -6,10 +6,11 @@ body {
 }
 
 .logo {
-  width: 120px;
+  width: 140px;
   display: block;
-  margin: auto;
+  margin: 0 auto 10px auto;
 }
+
 
 .team {
   border: 1px solid #333;
@@ -27,6 +28,15 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
+
+.admin-panel {
+  opacity: 0.15;
+}
+
+.admin-panel:hover {
+  opacity: 1;
+}
+
 
 .slot {
   padding: 14px;
