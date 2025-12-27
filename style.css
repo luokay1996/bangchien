@@ -1,62 +1,45 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   background: #111;
   color: #fff;
   padding: 15px;
+  text-align: center;
 }
 
 .logo {
-  width: 140px;
-  display: block;
-  margin: 0 auto 10px auto;
+  max-width: 160px;
+  margin-bottom: 10px;
 }
 
+.controls, .admin-panel {
+  margin: 15px 0;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  max-width: 300px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+  background: #00ffcc;
+  font-weight: bold;
+}
+
+#teams {
+  margin-top: 20px;
+}
 
 .team {
-  border: 1px solid #333;
-  margin-bottom: 15px;
-  padding: 10px;
-}
-
-.team-title {
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-.slots {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-}
-
-.admin-panel {
-  opacity: 0.15;
-}
-
-.admin-panel:hover {
-  opacity: 1;
-}
-
-
-.slot {
-  padding: 14px;
   background: #222;
-  text-align: center;
+  padding: 10px;
+  margin: 8px auto;
   border-radius: 6px;
-  cursor: pointer;
-}
-
-.filled { cursor: default; color: white; }
-
-.toaimong { background: #6cc; }
-.thiety { background: #f4a261; }
-.thantuong { background: #264653; }
-.tovan { background: #e76f9a; }
-.cuulinh { background: #8e44ad; }
-
-.admin-panel, .controls {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 12px;
-  flex-wrap: wrap;
+  max-width: 360px;
 }
