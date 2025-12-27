@@ -1,0 +1,52 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: #fff;
+  padding: 15px;
+}
+
+.logo {
+  width: 120px;
+  display: block;
+  margin: auto;
+}
+
+.team {
+  border: 1px solid #333;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.team-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.slots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.slot {
+  padding: 14px;
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filled { cursor: default; color: white; }
+
+.toaimong { background: #6cc; }
+.thiety { background: #f4a261; }
+.thantuong { background: #264653; }
+.tovan { background: #e76f9a; }
+.cuulinh { background: #8e44ad; }
+
+.admin-panel, .controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}

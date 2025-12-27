@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Đăng ký bang chiến</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<img src="logo.png" class="logo">
+<h1 id="title"></h1>
+
+<div class="admin-panel">
+  <input id="adminPass" type="password" placeholder="Admin">
+  <button onclick="toggleLock()">Khóa / Mở</button>
+  <span id="lockStatus"></span>
+</div>
+
+<div class="controls">
+  <input id="nameInput" placeholder="Tên ingame">
+  <select id="classInput">
+    <option value="">-- Chọn class --</option>
+    <option value="toaimong">Toái Mộng</option>
+    <option value="thiety">Thiết Y</option>
+    <option value="thantuong">Thần Tương</option>
+    <option value="tovan">Tố Vấn</option>
+    <option value="cuulinh">Cửu Linh</option>
+  </select>
+</div>
+
+<div id="teams"></div>
+
+<h3>Dự bị (Học việc)</h3>
+<div id="reserves"></div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
